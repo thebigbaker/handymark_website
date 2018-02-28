@@ -78,6 +78,10 @@ nav {
   grid-area: cabinets;
 }
 
+.services-button {
+  margin-top: 20px;
+}
+
 /* About section */
 #about {
   background-image: url('../img/tools2.jpg');
