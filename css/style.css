@@ -1,3 +1,4 @@
+/* Navbar */
 nav {
   background-color: rgba(74, 74, 74, 0.85) !important;
 }
@@ -6,6 +7,12 @@ nav {
   opacity: 0.8;
 }
 
+.fb-link {
+  
+  margin-top: 0.4rem;
+}
+
+/* Showcase Section */
 #showcase {
   display: flex;
   align-items: center;
@@ -14,6 +21,11 @@ nav {
   background-position: center;
 }
 
+#showcase p {
+  text-shadow: 1px 1px black;
+}
+
+/* What to Expext Section */
 #expect {
   background-image: url('../img/boards.jpg');
   background-position: center;
@@ -33,6 +45,11 @@ nav {
 /* Featured Services Grid */
 #services p {
   margin-top: 3px;
+}
+
+#services h4 {
+  font-weight: bold;
+  margin-top: 30px;
 }
 
 .services-row div {
@@ -78,8 +95,22 @@ nav {
   grid-area: cabinets;
 }
 
+.recent-work {
+  margin-top: 30px;
+}
+
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
+.imgs img {
+  width: 100%;
+}
+
 .services-button {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 /* About section */
@@ -117,13 +148,12 @@ nav {
 
 .ha-logo {
   margin-bottom: 20px;
-  width: 30%;
-  height: 30%;
 }
 
 /* Contact Section */
 #contact {
   background-image: url('../img/denver.jpg');
+  background-repeat: no-repeat;
   background-position: center;
   overflow: hidden;
 }
@@ -147,6 +177,10 @@ nav {
   height: 30%;
 }
 
+.fb-footer {
+  color: white;
+}
+
 
 
 
@@ -161,7 +195,7 @@ nav {
     height: 85%;
   }
 
-  #expect .col {
+#expect .col {
     width: 100%;
   }
 
