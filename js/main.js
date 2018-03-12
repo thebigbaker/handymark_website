@@ -5,4 +5,7 @@ $( document ).ready(function(){
 
   // Scrollspy
   $('.scrollspy').scrollSpy();
+
+  // Reviews
+  $('.carousel.carousel-slider').carousel({fullWidth: true});
 })

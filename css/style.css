@@ -113,6 +113,30 @@ nav {
   margin-top: 30px;
 }
 
+
+/* Reviews Carousel */
+.carousel-item {
+  padding: 20px;
+}
+
+.carousel-item h5 {
+  font-size: 18px;
+}
+
+.carousel-item span {
+  font-style: italic;
+}
+
+.carousel-item p {
+  font-size: 14px !important;
+}
+
+.carousel {
+  height: 240px !important;
+}
+
+
+
 /* About section */
 #about {
   background-image: url('../img/truck.jpg');
@@ -142,13 +166,17 @@ nav {
   margin-top: -5px;
 }
 
-.achp-logo {
-  margin-bottom: 20px;
+.badges {
+  margin-bottom: 10px;
 }
 
-.ha-logo {
-  margin-bottom: 20px;
+.achp-badge {
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
+
+
+
 
 /* Contact Section */
 #contact {
