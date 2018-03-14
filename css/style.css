@@ -209,6 +209,17 @@ nav {
   color: white;
 }
 
+/* Thank You Page */
+#thankyou {
+  margin-top: 100px;
+  margin-bottom: 300px;
+  padding: 30px;
+}
+
+#thankyou i {
+  color: green;
+}
+
 
 
 
